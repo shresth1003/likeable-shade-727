@@ -40,11 +40,25 @@ justify-content: space-between;
     width: 10%;
 }
 #navbar >div:nth-last-child(1) p{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-right: 60px;
     width: 60%;
     text-align: center;
     padding-top: 23px;
     background-color: rgb(255, 0, 76);
     color: white;
+}
+#navbar >div:nth-last-child(1) p:hover{
+    background-color:blue;
+}
+.slider1{
+    height: 100vh;
+    width: 100%;
+position: relative;
+
+}
+.slider1> img{
+    height: auto;
+    width: 100%;
+
 }
