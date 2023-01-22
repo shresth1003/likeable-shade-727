@@ -1,7 +1,7 @@
-*{
+body{
    margin: 0px;
+   padding: 0px;
    box-sizing: border-box;
-   padding: 0;
 }
 #navbar{
     width: 98%;
@@ -39,59 +39,281 @@ justify-content: space-between;
 #navbar >div:nth-last-child(1) img{
     width: 10%;
 }
-#navbar >div:nth-last-child(1) p{
+#navbar >div:nth-last-child(1) a{
     /* border: 2px solid red; */
     margin-right: 60px;
     width: 60%;
     text-align: center;
-    padding-top: 23px;
+    padding-top: 10px;
     background-color: rgb(255, 0, 76);
     color: white;
+    text-decoration: none;
 }
-#navbar >div:nth-last-child(1) p:hover{
+#navbar >div:nth-last-child(1) a:hover{
     background-color:blue;
 }
 
-* {
-    box-sizing:border-box
-}
-
-.zero{
-    width: 900px;
-    margin: auto;
-    box-sizing: border-box;
-}
-.zero img{
-    width: 100%;
-}
-.one{
-    width: 900px;
-    margin: auto;
-    box-sizing: border-box;
-}
-.one img{
-    width: 100%;
-}
-.two{
+#tadka1{
     height: 100vh;
-    width: 98vw;
+    width: 96vw; 
     margin: auto;
-    box-sizing: border-box;
-    border: 2px solid red;
-    display: grid;
+    border: 2px solid transparent;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    background-image: url("https://images.pexels.com/photos/6089654/pexels-photo-6089654.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    /* box-sizing: border-box; */
+}
+#tadka1 h1{
+color:white;
+}
+#tadka2{
+    height: 100vh;
+   width: 96vw; 
+   margin: auto;
+   border: 2px solid white;
+   
+   background-image: url("https://www.elpolloloco.com/content/img/hero/M2-2022-Family-Feast-Hero-Desktop-2560x1280.webp");
+   background-size: cover;
+   box-sizing: border-box;
 
 }
-.two>.two1 img{
-    width: 20%;
+#tadka2 h2{
+color:blue;
+}
+#tadka2 p{
+color:blue;
+}
+#tadka2 button{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color:white;
+    background-color: blue;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#tadka2>.tadkaText{
+    width: 30%;
+    border: 2px solid transparent;
+text-align: center;
+margin-top: 140px;
+margin-left: 70px;
+}
+#tadka3{
+    height: 100vh;
+   width: 96vw; 
+   margin: auto;
+   border: 2px solid white;
+   
+   background-image: url("https://www.elpolloloco.com/content/img/hero/M4-2022-Combos-Hero-Desktop-2560x1280.webp");
+   background-size: cover;
+
+}
+#tadka3 h2{
+color:red;
+}
+#tadka3 p{
+color:red;
+}
+#tadka3 button{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color:white;
+    background-color: blue;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#tadka3>.tadkaText{
+    width: 30%;
+    border: 2px solid transparent;
+text-align: center;
+margin-top: 140px;
+margin-left: 70px;
+}
+#tadka4{
+    height: 100vh;
+   width: 96vw; 
+   margin: auto;
+   border: 2px solid white;
+   
+   background-image: url("https://www.elpolloloco.com/content/img/hero/M3-2021-Team-2-Hero-Desktop-2560x1280.webp");
+   background-size: cover;
+}
+#tadka4 h2{
+color:red;
+}
+#tadka4 p{
+color:red;
+}
+#tadka4 button{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color:white;
+    background-color: blue;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#tadka4>.tadkaText{
+    width: 30%;
+    border: 2px solid transparent;
+text-align: center;
+margin-top: 140px;
+margin-left: 70px;
+}
+#tadka5{
+    height: 100vh;
+   width: 96vw; 
+   margin: auto;
+   border: 2px solid white;
+   
+   background-image: url("https://www.elpolloloco.com/content/img/hero/M5-Free-Chips-Hero-Desktop-2560x1280.webp");
+   background-size: cover;
+}
+#tadka5 h2{
+color:blue;
+}
+#tadka5 p{
+color:blue;
+}
+#tadka5 button{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color:white;
+    background-color: blue;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#tadka5>.tadkaText{
+    width: 30%;
+    border: 2px solid transparent;
+text-align: center;
+margin-top: 120px;
+margin-left: 70px;
+}
+
+#legpiece{
+    height: 100vh;
+    width: 96vw;
+    border: 2px solid transparent;
+}
+#legpiece img{
+    height: auto;
+    width: 80%;
+    /* border: 2px solid white; */
+}
+
+#landmark{
+    height: 100vh;
+   width: 96vw; 
+   margin: auto;
+   border: 2px solid white;
+   background-color: lightblue;
+   display: flex;
+   justify-content: space-around;
+}
+/* #landmark button{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color:white;
+    background-color: blue;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+#landmark>.tadkaText{
+    height: 50%;
+    width: 30%;
+    /* border: 2px solid red; */
+text-align: center;
+margin-top: 90px;
+margin-left: 30px;
+}
+#landmark>.tadkaText1{
+    height: auto;
+    width: 50%;
+    /* border: 2px solid red; */
+/* text-align: center;
+margin-top: 120px;
+margin-left: 70px; */
+}
+#landmark>.tadkaText1 img{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid transparent; */
+text-align: center;
+/* margin-top: 120px;
+margin-left: 70px; */
+}
+#Footer{
+    height: 110vh;
+    width: 99vw;
     margin: auto;
-    
-    
+    border: 2px solid white;
+    background-color: blue;
 }
-#footer{
-  width: 98vw;
-  height: 300px;
-  margin: auto;
-  background-color: blue;
-  display: flex;
-  justify-content: space-between;
+#Footer #Footer1{
+    display: flex;
+/* position: relative; */
+/* position: fixed; */
 }
+#Footer #Footer1 .main{
+    height: auto;
+    width: 33%;
+    /* border: 2px solid red; */
+    /* background-color: blue; */
+    /* text-decoration: none; */
+    margin: auto;
+    margin-top: 50px;
+    color: antiquewhite;
+}
+#Footer #Footer1 .main a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#Footer #Footer1 .main a:hover{
+    text-decoration-line: underline;
+    /* color: red; */
+}
+#Footer #Footer1 .main img{
+    width:50px;
+    padding-top: 20px;
+}
+#Footer >#Footer2 {
+    margin-top: 100px;
+    /* display: flow-root; */
+    display: flex;
+    justify-content: space-around;
+    /* float: left; */
+}
+#Footer #Footer2 img{
+    width: 15px;
+
+}
+#Footer >#Footer2 >#Footer3{
+    float: left;
+}
+#Footer >#Footer2 >#Footer5{
+    float: right;
+}
+#Footer >#Footer2 >#Footer5 a{
+   color: white;
+   font-size: 10px;
+   text-decoration: none;
+}
+
+
